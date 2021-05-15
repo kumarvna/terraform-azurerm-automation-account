@@ -7,7 +7,7 @@ Azure Automation is a new service in Azure that allows you to automate Azure man
 ```hcl
 module "automation-account" {
   source  = "kumarvna/automation-account/azurerm"
-  version = "1.0.0"
+  version = "1.1.0"
 
   # Resource Group, location, VNet and Subnet details
   resource_group_name     = "rg-shared-westeurope-01"
